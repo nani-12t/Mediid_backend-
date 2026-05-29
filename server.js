@@ -16,6 +16,7 @@ getMarketplaceConn();
 const allowedOrigins = [
   (process.env.CLIENT_URL || 'https://frontend-dun-five-15.vercel.app').replace(/\/$/, ''),
   'https://frontend-dun-five-15.vercel.app',
+  'https://mediid-frontend.vercel.app/',
   'http://localhost:3000',
   'http://127.0.0.1:3000',
   'http://localhost:3001',
